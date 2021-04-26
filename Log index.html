@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Html</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <div id="div">
+        
+        <form id="form">
+            <h1><i>Enter the details</i></h1>
+            <!--Username-->
+               <input type="text" class="cls" id="uname" placeholder="Username">
+                <label id="lbl" class="label"  style="color: red; visibility: hidden;">Invalid</label><br>
+            <!--Mail-->
+        
+                <input type="text" class="cls"  id="mail" placeholder="G-Mail">
+                <label id="lbl1" class="label"  style="color: red; visibility: hidden;">Invalid</label><br>
+               
+            <!--phone number-->
+        
+                <input type="text" class="cls"  id="number" placeholder="Phone Number">
+                <label id="lbl2" class="label"  style="color: red; visibility: hidden;">Invalid</label><br>
+                
+             <!--Password-->
+             
+             <input type="password" class="cls"  id="password" placeholder="password">
+             <label id="lbl3" class="label"  style="color: red; visibility: hidden;">Invalid</label><br>
+            <!--Confirm Password-->
+             <input type="password" class="cls"  id="Confirm" placeholder="Confirm password">
+             <label id="lbl4" class="label"  style="color: red; visibility: hidden;">Invalid</label><br>
+             <button id="lbl5" style="color: red; visibility:hidden;" value="validate"></button><br>
+            
+        
+            <!--Gender-->
+            <label id="gender">Gender:</label>
+             <input class="gender" type="radio" name="gender"> Male 
+             <input class="gender" type="radio" name="gender">Female
+             <!--State-->
+             <label id="country">Country:</label>
+             <select id="select">
+                <option>Africa</option>
+                <option>Australia</option>
+                <option>Germany</option>
+                 <option>India</option>
+                 <option>United States</option>
+                 <option>United Kingdom</option>
+                
+             </select><br><br>
+          
+                <button id="btn1" type="button" onclick="btn()">Register</button>
+               <!--<form name="myform" action="tb1.html" onsubmit="return login()">
+                    <input type="submit" id="lg" name="login" value="Log In">
+                </form>--> 
+            </form>
+            
+    </div>
+    
+   
+</body>
+</html>
